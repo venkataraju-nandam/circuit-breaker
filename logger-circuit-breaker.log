@@ -1,0 +1,31 @@
+2019-12-31 00:29:43.618  INFO 83640 --- [main] c.e.c.c.CircuitBreakerApplicationTests   : No active profile set, falling back to default profiles: default
+2019-12-31 00:29:44.334  INFO 83640 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b3fb6894-bd7c-3f70-a12b-74899f21e300
+2019-12-31 00:29:44.593  INFO 83640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1566db37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 00:29:45.574  WARN 83640 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-31 00:29:45.575  INFO 83640 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-31 00:29:45.586  WARN 83640 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-31 00:29:45.587  INFO 83640 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-31 00:29:45.869  INFO 83640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 00:29:46.831  INFO 83640 --- [main] c.e.c.c.CircuitBreakerApplicationTests   : Started CircuitBreakerApplicationTests in 5.037 seconds (JVM running for 6.657)
+2019-12-31 00:29:47.109  INFO 83640 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-31 00:29:47.128  WARN 83640 --- [SpringContextShutdownHook] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-31 00:29:47.128  INFO 83640 --- [SpringContextShutdownHook] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-31 00:30:01.873  INFO 83796 --- [main] c.e.c.c.CircuitBreakerReadingApplication : No active profile set, falling back to default profiles: default
+2019-12-31 00:30:02.652  INFO 83796 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cef83068-134c-370c-bb1c-ad5950785d9d
+2019-12-31 00:30:02.793  INFO 83796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3ffd01e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 00:30:03.599  INFO 83796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-12-31 00:30:03.612  INFO 83796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 00:30:03.612  INFO 83796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 00:30:03.811  INFO 83796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 00:30:03.812  INFO 83796 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1897 ms
+2019-12-31 00:30:04.116  WARN 83796 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-31 00:30:04.117  INFO 83796 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-31 00:30:04.124  WARN 83796 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-12-31 00:30:04.125  INFO 83796 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-31 00:30:04.326  INFO 83796 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 00:30:05.104  INFO 83796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-12-31 00:30:05.457  INFO 83796 --- [main] c.e.c.c.CircuitBreakerReadingApplication : Started CircuitBreakerReadingApplication in 5.492 seconds (JVM running for 6.078)
+2019-12-31 00:30:33.234  INFO 83796 --- [http-nio-8091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 00:30:33.235  INFO 83796 --- [http-nio-8091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 00:30:33.249  INFO 83796 --- [http-nio-8091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-12-31 00:31:19.829  INFO 83796 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
